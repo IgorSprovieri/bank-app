@@ -1,0 +1,82 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "@fontsource-variable/inter";
+
+:root {
+  --background: #001b3d;
+  --background-gradient: #001733;
+
+  --foreground: #ffffff;
+
+  --primary: #4f7dea;
+  --primary-foreground: #ffffff;
+
+  --secondary: #f1a253;
+  --secondary-foreground: #ffffff;
+
+  --input: #1e3a5f;
+  --ring: #4f7dea;
+
+  --muted: #98a3b2;
+  --muted-foreground: #64748b;
+
+  --success: #83aa58;
+  --destructive: #f27474;
+
+  --border: #e2e8f0;
+
+  --sidebar: #ffffff;
+  --sidebar-foreground: #0f172a;
+  --sidebar-border: #e2e8f0;
+  --sidebar-accent: #ffffff;
+  --sidebar-accent-foreground: #0f172a;
+  --sidebar-ring: #4f7dea;
+
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+  --popover-radius: 0.5rem;
+
+  --radius: 0.5rem;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-background-gradient: var(--background-gradient);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-destructive: var(--destructive);
+  --color-success: var(--success);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-family: "Inter Variable", sans-serif;
+  }
+
+  body {
+    @apply bg-linear-to-b from-background to-background-gradient bg-no-repeat text-foreground;
+  }
+
+  [data-slot="sidebar"],
+  [data-slot="sidebar-inner"] {
+    --color-foreground: var(--sidebar-foreground);
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Igor Sprovieri",
+      "email": "igor.sprovieri@outlook.com",
+      "agency": "0001",
+      "account": "12345",
+      "password": "123456",
+      "avatarUrl": ""
+    }
+  ],
+  "transfers": [
+    {
+      "id": "1",
+      "userId": 1,
+      "name": "Joao Silva",
+      "date": "2026-03-31T12:57:00.000",
+      "amount": 350,
+      "type": "Received"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "name": "Mercado Central",
+      "date": "2026-03-30T00:00:00.000",
+      "amount": 182.9,
+      "type": "Sent"
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "name": "Ana Costa",
+      "date": "2026-03-29T00:00:00.000",
+      "amount": 120,
+      "type": "Received"
+    },
+    {
+      "id": "4",
+      "userId": 1,
+      "name": "Carlos Souza",
+      "date": "2026-03-28T10:15:00.000",
+      "amount": 75,
+      "type": "Sent"
+    },
+    {
+      "id": "5",
+      "userId": 1,
+      "name": "Supermercado Bom Preço",
+      "date": "2026-03-27T18:20:00.000",
+      "amount": 240.5,
+      "type": "Sent"
+    },
+    {
+      "id": "6",
+      "userId": 1,
+      "name": "Fernanda Lima",
+      "date": "2026-03-26T09:00:00.000",
+      "amount": 500,
+      "type": "Received"
+    },
+    {
+      "id": "7",
+      "userId": 1,
+      "name": "Padaria Pão Doce",
+      "date": "2026-03-25T07:45:00.000",
+      "amount": 32.8,
+      "type": "Sent"
+    },
+    {
+      "id": "8",
+      "userId": 1,
+      "name": "Ricardo Alves",
+      "date": "2026-03-24T14:30:00.000",
+      "amount": 210,
+      "type": "Received"
+    },
+    {
+      "id": "9",
+      "userId": 1,
+      "name": "Uber",
+      "date": "2026-03-23T22:10:00.000",
+      "amount": 48.9,
+      "type": "Sent"
+    },
+    {
+      "id": "10",
+      "userId": 1,
+      "name": "Juliana Martins",
+      "date": "2026-03-22T11:05:00.000",
+      "amount": 90,
+      "type": "Received"
+    },
+    {
+      "id": "11",
+      "userId": 1,
+      "name": "Farmácia Saúde",
+      "date": "2026-03-21T16:40:00.000",
+      "amount": 67.3,
+      "type": "Sent"
+    },
+    {
+      "id": "12",
+      "userId": 1,
+      "name": "Eduardo Pereira",
+      "date": "2026-03-20T13:25:00.000",
+      "amount": 300,
+      "type": "Received"
+    },
+    {
+      "id": "13",
+      "userId": 1,
+      "name": "Netflix",
+      "date": "2026-03-19T00:00:00.000",
+      "amount": 39.9,
+      "type": "Sent"
+    },
+    {
+      "id": "14",
+      "userId": 1,
+      "name": "Mariana Rocha",
+      "date": "2026-03-18T17:50:00.000",
+      "amount": 150,
+      "type": "Received"
+    },
+    {
+      "id": "15",
+      "userId": 1,
+      "name": "iFood",
+      "date": "2026-03-17T20:15:00.000",
+      "amount": 58.6,
+      "type": "Sent"
+    },
+    {
+      "id": "16",
+      "userId": 1,
+      "name": "Lucas Mendes",
+      "date": "2026-03-16T08:10:00.000",
+      "amount": 400,
+      "type": "Received"
+    },
+    {
+      "id": "17",
+      "userId": 1,
+      "name": "Academia Fitness",
+      "date": "2026-03-15T06:30:00.000",
+      "amount": 120,
+      "type": "Sent"
+    },
+    {
+      "id": "18",
+      "userId": 1,
+      "name": "Patricia Gomes",
+      "date": "2026-03-14T15:45:00.000",
+      "amount": 220,
+      "type": "Received"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
