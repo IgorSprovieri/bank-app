@@ -2,6 +2,12 @@
 
 It's a simple bank web app using mock data with json server.
 
+## Live App
+
+```bash
+https://
+```
+
 ## Stack
 
 - React
@@ -73,6 +79,14 @@ It's a simple bank web app using mock data with json server.
 
    ```bash
    npm run test:run
+   ```
+
+6. **Account to Test**
+
+   ```bash
+   agency: 0001
+   account: 12345
+   password: 123456
    ```
 
 **Summary:** for the app, use two terminals — `npm run server` and `npm run dev`. For tests, run `npm test` (no mock server required).
